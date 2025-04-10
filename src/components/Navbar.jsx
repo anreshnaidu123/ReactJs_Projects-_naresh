@@ -12,6 +12,8 @@ function Navbar() {
   return (
     <nav className="navbar">
     <div className="navbar-left">
+
+      {/* naresh naidu ammmieni */}
        <ul className="navbar-menu">
          <li className="menu-item" onClick={toggleDropdown}>
            Home <span className="dropdown-arrow">▼</span>
