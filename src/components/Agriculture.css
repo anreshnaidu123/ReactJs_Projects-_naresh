@@ -1,0 +1,61 @@
+/* Overall Hero Section */
+.hero-section {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    /* background-image: url('/images/elements.png');  */
+    background-image: url('D:\React.js projects\FarmerProject\public\images\ele (1).png');/* Adjust the path as needed */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    display: flex; /* For aligning content inside */
+    align-items: center;
+    justify-content: center;
+    color: white; /* Makes text white for better visibility */
+  }
+  
+  
+  /* Content Section */z
+  .hero-content {
+    position: relative;
+    text-align: left;
+    z-index: 1;
+ /* Transparent background for text visibility */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .hero-content h5 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+  }
+  
+  .hero-content h1 span {
+    color: #ffcc00; /* Highlight color for "&" */
+  }
+  
+  .hero-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #3e8e41;
+  }
+ 

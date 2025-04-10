@@ -1,0 +1,107 @@
+/* Main container */
+.farm-benefits-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Left section */
+  .farm-benefits-left {
+    position: relative;
+    width: 50%;
+  }
+  
+  .farm-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .tag {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    background-color: #fbb034; /* Yellow */
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+  
+  /* Right section */
+  .farm-benefits-right {
+    width: 45%;
+    text-align: left;
+  }
+  
+  .farm-benefits-right h3 {
+    color: #fbb034; /* Yellow shade */
+    font-weight: bold;
+  }
+  
+  .farm-benefits-right h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+  }
+  
+  .farm-benefits-right p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Benefits list */
+  .benefits-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .benefits-list li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    margin-right: 15px;
+  }
+  
+  .green {
+    color: #4caf50;
+  }
+  
+  .yellow {
+    color: #fbb034;
+  }
+  
+  .benefits-list h2 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #333;
+  }
+  
+  .benefits-list p {
+    margin: 5px 0 0;
+    color: #666;
+  }
+  
+  /* Button */
+  .green-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  
+  .green-button:hover {
+    background-color: #45a049;
+  }
+  

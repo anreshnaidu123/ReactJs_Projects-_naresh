@@ -1,0 +1,138 @@
+/* Footer.css */
+
+.footer {
+    background-color: #111;
+    color: #fff;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    position:relative;
+  }
+  
+  .footer-logo{
+    color: aliceblue;
+  
+  }
+  .footer-links,
+  .footer-news,
+  .footer-contact {
+    text-align: left;
+  }
+  
+  .footer-logo img {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo p {
+    color: #aaa;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-right: 15px;
+    text-decoration: none;
+    
+  }
+  .social-icons img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  .social-icons a:hover {
+    color: #4caf50;
+  }
+  
+  .footer-links h3,
+  .footer-news h3,
+  .footer-contact h3 {
+    margin-bottom: 15px;
+    color: #4caf50;
+  }
+  
+  .footer-links ul,
+  .footer-contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li,
+  .footer-contact ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul li a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .footer-links ul li a:hover {
+    color: #fff;
+  }
+  
+  .footer-news h4 {
+    color: #fff;
+    margin: 5px 0;
+  }
+  
+  .footer-news span {
+    font-size: 0.8rem;
+    color: #aaa;
+  }
+  
+  .footer-contact ul li {
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .footer-contact ul li i {
+    color: #4caf50;
+  }
+  
+  .footer-contact form {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-contact form input {
+    padding: 10px;
+    flex: 1;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .footer-contact form button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .footer-contact form button i {
+    font-size: 1rem;
+  }
+  
+  .footer-contact form button:hover {
+    background-color: #45a049;
+  }
+  

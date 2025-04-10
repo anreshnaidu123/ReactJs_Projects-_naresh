@@ -1,0 +1,146 @@
+/* General header styles */
+header {
+  background-color: #f1eeee; /* Light gray background */
+  color: #0b0101; /* Dark text */
+  padding: 20px 40px; /* Spacing */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .flex {
+  display: flex;
+  gap: 40px;
+}
+
+header img {
+  height: 40px; /* Logo height */
+  margin-right: 10px;
+
+  
+}
+
+header h1 {
+  font-size: 1.25rem; /* Logo title size */
+  font-weight: 600;
+}
+
+header p {
+  font-size: 0.875rem; /* Small text */
+}
+
+/* Contact info (phone, email, location) */
+.contact-info {
+  display: flex;
+  gap: 20px; /* Space between items */
+  align-items: center; /* Align items vertically */
+}
+
+.contact-info div {
+  display: flex;
+  align-items: center; /* Align icons and text vertically */
+  gap: 8px; /* Space between icon and text */
+}
+
+.contact-info img {
+  width: 10px; /* Icon size */
+  height: 10px;
+}
+
+.contact-info p {
+  margin: 0; /* Remove default margins */
+  font-size: 14px; /* Small text size */
+  color: black;
+}
+
+/* Social icons */
+header .gap-4 {
+  display: flex;
+  gap: 16px; /* Gap between social icons */
+}
+
+header a {
+  color: inherit; /* Match current text color */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+header a:hover {
+  color: #22c55e; /* Green color on hover */
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff; /* White background */
+  /* padding: 10px 40px; */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  /* gap: 5px; */
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  display: none;
+  z-index: 10;
+}
+
+.menu-item:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-arrow {
+  margin-left: 5px;
+}
+
+.navbar-right .icon {
+  cursor: pointer;
+  font-size: 18px; /* Adjust size for smaller icons */
+  margin-right: 20px;
+}
+
+.search-icon:hover + .search-label {
+  display: block;
+}
+
+.search-label {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-label input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 150px;
+}
+.text{
+  display:inline-block;
+  text-align: justify;
+}

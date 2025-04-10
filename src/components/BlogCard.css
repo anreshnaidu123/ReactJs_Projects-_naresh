@@ -1,0 +1,47 @@
+.blog-card {
+  width: 300px; /* Adjust width as needed */
+  margin: 1rem auto; /* Center cards horizontally */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  display: inline-block;
+  padding: 20px;
+
+}
+
+.blog-card img {
+  width: 100%; /* Ensure image matches the card width */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 200px; /* Limit maximum height */
+  object-fit: cover; /* Ensures the image fits nicely within the container */
+}
+
+.blog-card button {
+  background-color: blanchedalmond;
+}
+
+.blog-info {
+  padding: 1rem;
+}
+
+.date {
+  color: #888;
+  font-size: 0.8rem;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.comments {
+  color: #888;
+  font-size: 0.8rem;
+}
+
+.blog-card h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
